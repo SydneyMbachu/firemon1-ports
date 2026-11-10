@@ -38,4 +38,8 @@ Python 3.10+ only. No installation, API keys, internet or cloud accounts needed.
 
 This is a custom offline simulation, not FireMon software or a vendor configuration parser. It assumes one fixed web-to-application path with two mandatory allow-list controls and implicit deny. Source/destination scope is fixed and assumed correct. Only new TCP connections on the two listed ports are assessed; no CIDRs, zones, rule ordering, routing, NAT, egress checks or Unknown-state engine. Input is a trusted, complete fixture—not production configuration. Real changes require approval and live validation.
 
-The script calculates decisions from the inputs; it does not hard-code the result table. The two checks here are narrower than the seven-check case in `firemon`. That original project remains unchanged.
+The script calculates decisions from the inputs; it does not hard-code the result table. The two checks here are narrower than the seven-check case in `firemon`. The original `firemon` folder has been removed.
+
+## Live AWS firewall lab
+
+See [lab/README.md](lab/README.md) for the VM-Series Terraform draft, Marketplace checklist, deployment stages, and teardown. The live lab has not been deployed.
