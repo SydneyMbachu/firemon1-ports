@@ -1,7 +1,0 @@
-**/.terraform/
-**/*.tfstate*
-**/*.tfplan
-**/terraform.tfvars
-**/crash.log
-.local/
-__pycache__/

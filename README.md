@@ -42,4 +42,4 @@ The script calculates decisions from the inputs; it does not hard-code the resul
 
 ## Live AWS firewall lab
 
-See [lab/README.md](lab/README.md) for the VM-Series Terraform draft, Marketplace checklist, deployment stages, and teardown. The live lab has not been deployed.
+See [firemon2-palo-alto-firewall](https://github.com/SydneyMbachu/firemon2-palo-alto-firewall) for the VM-Series Terraform draft, Marketplace checklist, deployment stages, and teardown. The live lab has not been deployed.
